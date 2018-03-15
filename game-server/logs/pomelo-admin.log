@@ -1,0 +1,63 @@
+[2018-03-14 11:39:54.734] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2018-03-14 11:39:54.842] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2018-03-14 11:39:56.503] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2018-03-14 11:39:56.760] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "chat-server-1" "chat" register master failed
+[2018-03-14 11:39:56.762] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2018-03-14 11:39:56.804] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2018-03-14 11:39:56.813] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2018-03-14 11:39:57.044] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "gate-server-1" "gate" register master failed
+[2018-03-14 11:39:57.045] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2018-03-14 11:39:57.765] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2018-03-14 11:39:57.781] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"2":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6352},"chat-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat"}}}}}
+[2018-03-14 11:39:57.844] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:2
+[2018-03-14 11:39:58.048] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2018-03-14 11:39:58.063] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"5":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6352},"chat-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat"},"gate-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate"}}}}}
+[2018-03-14 11:39:58.143] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:5
+[2018-03-14 11:41:05.353] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate"}
+[2018-03-14 11:41:26.385] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2018-03-14 11:41:26.483] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2018-03-14 11:41:28.795] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2018-03-14 11:41:28.986] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "chat-server-1" "chat" register master failed
+[2018-03-14 11:41:28.988] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2018-03-14 11:41:28.883] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2018-03-14 11:41:29.053] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2018-03-14 11:41:29.204] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "gate-server-1" "gate" register master failed
+[2018-03-14 11:41:29.205] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2018-03-14 11:41:29.991] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2018-03-14 11:41:30.004] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"2":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5860},"chat-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat"}}}}}
+[2018-03-14 11:41:30.046] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:2
+[2018-03-14 11:41:30.208] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2018-03-14 11:41:30.221] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"5":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5860},"chat-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat"},"gate-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate"}}}}}
+[2018-03-14 11:41:30.310] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:5
+[2018-03-14 11:45:22.583] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2018-03-14 11:45:22.684] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2018-03-14 11:45:24.427] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2018-03-14 11:45:24.740] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "chat-server-1" "chat" register master failed
+[2018-03-14 11:45:24.742] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2018-03-14 11:45:24.676] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2018-03-14 11:45:24.792] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2018-03-14 11:45:25.283] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "gate-server-1" "gate" register master failed
+[2018-03-14 11:45:25.286] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2018-03-14 11:45:25.746] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2018-03-14 11:45:25.763] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"2":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6648},"chat-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat"}}}}}
+[2018-03-14 11:45:25.810] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:2
+[2018-03-14 11:45:26.289] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2018-03-14 11:45:26.300] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"5":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6648},"chat-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat"},"gate-server-1":{"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate"}}}}}
+[2018-03-14 11:45:26.349] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:5
+[2018-03-14 11:46:25.302] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2018-03-14 11:46:25.402] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2018-03-14 11:46:27.133] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2018-03-14 11:46:27.323] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2018-03-14 11:46:27.498] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2018-03-15 15:54:37.753] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2018-03-15 15:54:37.863] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2018-03-15 15:54:39.799] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2018-03-15 15:54:39.979] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2018-03-15 15:54:40.027] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2018-03-15 15:56:21.192] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Workspace\\PomeloWorkspace\\charofpomelo-websocket\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":2672}
+[2018-03-15 16:06:04.382] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2018-03-15 16:06:04.482] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2018-03-15 16:06:05.969] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2018-03-15 16:06:06.094] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2018-03-15 16:06:06.142] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2018-03-15 16:07:13.355] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"G:\\PomeloWorkspace\\chatofpomelo\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4604}
