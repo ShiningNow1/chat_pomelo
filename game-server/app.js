@@ -3,7 +3,7 @@ var pomelo = require('pomelo');
  * Init app for client.
  */
 var app = pomelo.createApp();
-app.set('name', 'chatofpomelo-websocket');
+app.set('name', 'chatofpomelo');
 
 // app configuration
 app.configure('production|development', 'connector', function(){
